@@ -5,6 +5,17 @@ var scavenger = 0;
 var lumberjack = 0;
 var miner = 0;
 
+var save = {
+	food: food,
+	gold: gold,
+	wood: wood, 
+	scavenger: scavenger,
+	lumberjack: lumberjack,
+	miner: miner
+}
+
+localStorage.setItem("save",JSON.stringify(save));
+
 
 function foodClick(number){
 	food = food + number;
