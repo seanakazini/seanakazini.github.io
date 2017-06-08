@@ -16,59 +16,60 @@
 
 		<hr>
 	
-	Resources <br>
+	<h2>Resources</h2>
 	
 		<img src="img/wheat.png" width="32" height="40">
 	<button onclick="foodClick(1)">Scavenge</button>
-		Food: <span id = "food">0</span>
+		- <span id = "food">0</span> Food
 			<br><br>
 
 		<img src="img/logs.png" width="32px" height="32px">
 	<button onclick="woodClick(1)">Chop Wood</button>
-		Wood: <span id = "wood">0</span>
+		- <span id = "wood">0</span> Wood
 			<br><br>
 
 		<img src="img/ore.png" width="32px" height="32px">
 	<button onclick="goldClick(1)">Go Mine</button>
-		Gold: <span id = "gold">0</span>
+		- <span id = "gold">0</span> Gold
 			<br><br>
 	
 
 		<hr>
-	<!--
-	Housing <br>
+	
+	<h2 style="color:grey">COMING SOON!</h2> 
+	<h3>Housing</h3>
 
 		<img src="img/tent.png" width="32px" height="32px">
 	<button onclick="buyTent()">Build Tent</button>
-		Cost: <span id="tentCost">50</span>
-		<br><span id="tent"></span>
+		Cost: <span style="color:grey" id="tentCost">50 wood, 20 gold</span>
+		- <span id="tent">0</span>
 
-		-->
 		
+		
+		<hr>
 
-
-	Workers <br>
+	<h2>Workers</h2>
 	
 	<!-- button to hire a scavenger-->
 	<button onclick="buyScavenger()">Hire Scavenger</button>
-		Cost: <span id="scavengerCost">10</span>
-		<img src="img/wheat.png" width="32" height="40">
-		<br><span id="scavenger">0</span>
+		Cost: <span style="color:grey" id="scavengerCost">10 food</span>
+		<span>-</span> 
+		<span id="scavenger">0</span> <br>
 		
 		
 	 	<br>
-	 	<!-- button to hire a lumberjackk-->
+	 	<!-- button to hire a lumberjack-->
 	<button onclick="buyLumberjack()">Hire Lumberjack</button>
-		Cost: <span id="lumberjackCost">15</span>
-		<<img src="img/wheat.png" width="32" height="40">
-		<br><span id="lumberjack">0</span>
+		Cost: <span style="color:grey" id="lumberjackCost">15 food</span>
+		<span>-</span> 
+		<span id="lumberjack">0</span> <br>
 
 		<br>
 		<!-- button to hire a miner-->
 	<button onclick="buyMiner()">Hire Miner</button>
-		Cost: <span id="minerCost">20</span>
-		<img src="img/wheat.png" width="32" height="40">
-		<br><span id="miner">0</span><br>
+		Cost: <span style="color:grey" id="minerCost">20 food</span>
+		<span>-</span>
+		<span id="miner">0</span><br>
 		
 			
 			<!-- script to connect main.js to html -->
